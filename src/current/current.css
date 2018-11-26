@@ -1,0 +1,32 @@
+.today-content-container{
+  display: flex;
+  flex-direction: column;
+  margin: 3% 0% 6%;
+}
+
+.today-results{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-rows: 100%;
+}
+
+.btc-col{
+  border-right: 0.05em solid #ddd;
+  text-align: center;
+}
+.ltc-col{
+  border-right: 0.05em solid #ddd;
+  text-align: center;
+}
+.eth-col{
+  text-align: center;
+}
+
+.small-text{
+  font-size: 0.6em;
+}
+.crypto-price{
+  color: navy;
+  font-weight: 100;
+  font-size: 2em;
+}
